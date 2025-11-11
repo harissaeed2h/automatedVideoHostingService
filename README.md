@@ -1,4 +1,4 @@
--------------------------------- README ---------------------------------------- THIS FOLDER NEEDS TO BE HOSTED VIA ANY SERVICE (e.g: APACHE, Python Http server, etc) ------------------
+------------ README ----------------------- THIS FOLDER NEEDS TO BE HOSTED VIA ANY SERVICE (e.g: APACHE, Python Http server, etc) ----------------------------
 
 
 -----> Run the update.sh script to update the website to contain all updated video and image files.
