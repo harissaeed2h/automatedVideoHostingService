@@ -1,0 +1,67 @@
+@font-face{
+	font-family: "UbuntuRegular";
+	src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@media(orientation: landscape){
+	body{
+		border: none;
+		margin: 0;
+		width: 100vw;
+		height: 100vh;
+		background: #212121;
+		*{
+			width: 100%;
+			height: 100%;
+			font-family: UbuntuRegular;
+			font-weight: bolder;
+			font-size: 1rem;
+		}
+	}
+
+        #menu{
+                height: 10%;
+                a{
+                        display: block;
+                        width: 100px;
+                        height: 50px;
+                        font-size: 1rem;
+                }
+                margin-top: 1%;
+                margin-bottom: 2%;
+        }
+	button{
+		height: 80%;
+		width: auto;
+	}
+	img{
+		width: auto;
+	}
+}
+
+@media(orientation:portrait){
+        body{
+                border: none;
+                margin: 0;
+                width: 100vw;
+                height: 100vh;
+                background: #212121;
+                *{
+                        width: 100%;
+                        height: 100%;
+                        font-family: UbuntuRegular;
+                        font-weight: bolder;
+                        font-size: 1rem;
+                }
+        }
+
+        #menu{
+                height:10%;
+                a{
+                        display:block;
+                        height:60%;
+                        width:auto;
+                        font-size:1rem;
+                }
+        }
+}
